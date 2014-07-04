@@ -55,8 +55,8 @@ class Adder
    end
 end
 # Penguin information
-username = 'orange0juice'
-password = 'dicks1234'
+username = 'username'
+password = 'password'
 items = [123]
 ItemAdder = Adder.new
 ItemAdder.AddItem(username, password, items)
