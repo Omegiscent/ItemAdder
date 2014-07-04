@@ -1,7 +1,6 @@
 require 'net/http'
 require 'base64'
 require 'json'
-require 'net/https'
 require 'uri'
 require 'openssl'
 
