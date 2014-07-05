@@ -35,7 +35,8 @@ class Adder
       base = base.encode('utf-8')
       
       headers = {
-         'Authorization' => "Basic #{base.strip}" + ',' + @@api
+         'Authorization' => "Basic #{base.strip}" + ',' + @@api,
+         "Content-Type" => "application/json"
       }
       
       url = URI.parse("https://api.disney.com/clubpenguin/mobile/v2/coins?appId=CPMCAPP")
